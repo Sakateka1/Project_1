@@ -1,0 +1,201 @@
+@media (max-width: 576px) {
+    header {
+        position: relative;
+        background: #8f919c;
+        min-height: 350px;
+    }
+    .logo_img {
+        left: 48%;
+    }
+    
+    .header_menu {
+        position: absolute;
+        left: 19%;
+        top: 30%;
+        display: flex;
+        flex-direction: column;
+    }
+    dd {
+        margin-top: 30px;
+    }
+    .main {
+        text-align: center;
+        padding-top: 20%;
+        padding-bottom: 50px;
+    }
+    .main_text {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    .main_text1 {
+        text-align: center;
+        padding: 0;
+    }
+    .main_img_text {
+        display: flex;
+        flex-direction: column;
+    }
+    .p0 {
+        text-align: justify;
+        line-height: 30px;
+    }
+    .main_text_img {
+        width: 100%;
+    }
+    .main_text2 {
+        padding: 0;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .main_text2::after {
+        top: 92%;
+    }
+    .retro-bike {
+        display: flex;
+        flex-direction: column;
+    }
+    .retro-bike {
+        display: flex;
+        flex-direction: column;
+    }
+    .bg-bicykles {
+        width: 100%;
+    }
+    .p1 {
+        margin-bottom: -10px;
+        font-weight: 700;
+        letter-spacing: 0px;
+        text-align: initial;
+    }
+    .bg-bike {
+        width: 100%;
+    }
+    .slider {
+        width: 100%;
+    }
+    .shop {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .shop-products_center img {
+        width: 50%;
+    }
+    .mail {
+        display: flex;
+        flex-direction: column;
+    }
+    .enter-mail {
+        width: 80%;
+        margin: auto;
+    }
+    .button-email {
+        margin: auto;
+        width: 19%;
+        height: 50px;
+        margin-top: 10px;
+    }
+    .info {
+        padding-top: 150px;
+    }
+    .logo-socium {
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+        align-items: center;
+        position: absolute;
+        left: 33%;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+    .logo_img {
+        left: 49.4%;
+    }
+    .header_menu {
+        display: flex;
+        flex-direction: column;
+        margin-top: 35px;
+        
+    }
+    dd {
+        padding-top: 20px;
+    }
+    .main_text2 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .hide-object {
+        display: none;
+    }
+    .p1 {
+        text-align: center;
+    }
+    .p2 {
+        text-align: left;
+    }
+    .main_text2::after {
+        top: 91%;
+    }
+    .shop {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .foto-bottom_2 {
+        width: 100%;
+    }
+    .mail {
+        display: flex;
+        flex-direction: column;
+    }
+    .enter-mail {
+        width: 60%;
+        margin: auto;
+    }
+    .button-email {
+        margin: auto;
+        width: 11%;
+        height: 50px;
+        margin-top: 10px;
+    }
+    .logo-socium {
+        display: flex;
+        justify-content: space-between;
+        width: 25%;
+        top: 20%;
+        left: 37%;
+    }
+    .shop-products-3 {
+        order: 1;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    .header_menu {
+        position: absolute;
+        top: 12%;
+        left: 20%;
+    }
+    .main_text2::after {
+        top: 90%;
+    }
+    .main_text2 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .block {
+        display: none;
+    }
+    .shop {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .foto-bottom_2 {
+        width: 100%;
+    }
+    .logo-socium {
+        display: flex;
+        justify-content: space-between;
+        width: 20%;
+        top: 20%;
+        left: 40%;
+    }
+}
