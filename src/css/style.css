@@ -372,6 +372,7 @@ a:hover {
     letter-spacing: 4px;
     font-size: 14px;
     font-weight: 600;
+    margin: 0px 10px 0px 10px;
 }
 .e-mail {
     display: flex;
@@ -406,7 +407,7 @@ a:hover {
     border-color: #c8c8c8;
     border-radius: 1px;
     outline: none;
-    padding: 25px 0px 25px 29px;
+    padding: 25px 20px 25px 29px;
     width: 25%;
     margin-right: 8px;
     -webkit-border-radius: 2px;
